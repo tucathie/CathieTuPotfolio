@@ -4,7 +4,7 @@ body, html {
 }
 nav {
     background-color: white;
-    height: 60px;
+    height: 50px;
 }
 
 .jumbotron {
@@ -46,6 +46,14 @@ a.hover {
     font-weight: bolder;
 }
 
+.nav-link {
+    color:cadetblue;
+}
+
+.nav-link:hover {
+    color: cadetblue;
+    font-weight: bolder;
+}
 .casephoto {
     margin-top: -50px;
     width: 85%;
@@ -70,5 +78,10 @@ a.hover {
 .btn, .btn-default {
     border-color: black;
     color: cadetblue;
+    font-weight: bolder;
+}
+
+.btn:hover {
+    color: black;
     font-weight: bolder;
 }
